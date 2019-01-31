@@ -1,0 +1,15 @@
+/* pages/product/product.wxss */
+.card{
+  font-size: 14px;
+  margin: 60rpx 20rpx;
+  padding: 20rpx;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column
+}
+.card .cell-item{
+  padding: 20rpx 30rpx;
+  border-bottom: 1px solid #ddd
+}

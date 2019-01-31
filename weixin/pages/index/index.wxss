@@ -1,0 +1,50 @@
+/**index.wxss**/
+/* 功能一：轮播图 */
+.slider,.slider swiper,.slider image{
+  height: 390rpx;
+  width: 100%;
+}
+
+/* 功能二：九宫格 */
+.index-nav{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-item{
+  width: 33.333%;
+  height: 240rpx;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px
+}
+.nav-item image{
+  width: 102rpx;
+  height: 102rpx;
+  margin-bottom: 8px;
+}
+.nav-item:nth-child(3n){
+  border-right: 0px
+}
+
+/* 功能三：分隔块 */
+
+/* 功能四：按钮 */
+.linkButton{
+  display: flex;
+  justify-content: center;
+}
+.linkButton navigator{
+  width: 35%;
+  margin: 0px 10px
+}
+.linkButton image{
+  width: 100%;
+  height: 100rpx;
+}

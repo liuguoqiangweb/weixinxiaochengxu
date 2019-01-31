@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addmessage/addmessage",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/product/product",
+    "pages/shoplist/shoplist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6600",
+    "navigationBarTitleText": "小程序商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/static/tabs/home.png",
+        "selectedIconPath": "pages/static/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "pages/static/tabs/product.png",
+        "selectedIconPath": "pages/static/tabs/product-active.png"
+      },
+      {
+        "pagePath": "pages/shoplist/shoplist",
+        "text": "美食",
+        "iconPath": "pages/static/tabs/food.png",
+        "selectedIconPath": "pages/static/tabs/food-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "pages/static/tabs/profile.png",
+        "selectedIconPath": "pages/static/tabs/profile-active.png"
+      }
+    ]
+  }
+}
